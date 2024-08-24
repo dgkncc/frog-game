@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0a323c3c8e212408c000f2c658306a, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  cellSize: 1
+  cellHeight: 0.13
+  cameraHorizontalPadding: 0.25
+  tongueExtendDuration: 0.25
+  defaultCellMaterial: {fileID: 2100000, guid: 0fa72d037877c73478a3f4ba59c1d0d2, type: 2}
+  cellMaterials:
+    _serializedList:
+    - Key: 0
+      Value: {fileID: 2100000, guid: 903c18f1033a2114ea421561667ef26c, type: 2}
+    - Key: 1
+      Value: {fileID: 2100000, guid: 18b6d30377258624bb041e8f66ab63ad, type: 2}
+    - Key: 2
+      Value: {fileID: 2100000, guid: fa4087c661f8b634ebb7c94b6bfdeda4, type: 2}
+    - Key: 3
+      Value: {fileID: 2100000, guid: 87e0fdb24e034b24b84afdbe2953317c, type: 2}
+    - Key: 4
+      Value: {fileID: 2100000, guid: 6555c7bb1af24d847b404307d67c7487, type: 2}
+  frogMaterials:
+    _serializedList:
+    - Key: 0
+      Value: {fileID: 2100000, guid: aabfa5f9be8965d478e9514f53db6879, type: 2}
+    - Key: 1
+      Value: {fileID: 2100000, guid: f1791395a2c9ce34198e9c379d70bcb5, type: 2}
+    - Key: 2
+      Value: {fileID: 2100000, guid: 37eb449c788b7264ebd92c5c63e1795e, type: 2}
+    - Key: 3
+      Value: {fileID: 2100000, guid: a31fca1cc17c5bb4aa561d1eca53ade5, type: 2}
+    - Key: 4
+      Value: {fileID: 2100000, guid: d38ec599c2667404ba79e66c67cccaf9, type: 2}
+  grapeMaterials:
+    _serializedList:
+    - Key: 0
+      Value: {fileID: 2100000, guid: e43a882e4d515f0418ab117ff1638ae7, type: 2}
+    - Key: 1
+      Value: {fileID: 2100000, guid: de47948f6fd659d409be64f25b87a031, type: 2}
+    - Key: 2
+      Value: {fileID: 2100000, guid: e69ad9afa6e5d2f46b3ff79f1861a9f3, type: 2}
+    - Key: 3
+      Value: {fileID: 2100000, guid: 02040b61d6fe9a144be5730f7619ac92, type: 2}
+    - Key: 4
+      Value: {fileID: 2100000, guid: 59d2bbba46d8d47409a21a7359fb5286, type: 2}
+  arrowColors:
+    _serializedList:
+    - Key: 0
+      Value: {r: 0.16881356, g: 0.6893219, b: 0.83, a: 1}
+    - Key: 1
+      Value: {r: 0.45114756, g: 0.86, b: 0.09868851, a: 1}
+    - Key: 2
+      Value: {r: 0.6485247, g: 0.09868851, b: 0.86, a: 1}
+    - Key: 3
+      Value: {r: 0.9, g: 0.15529412, b: 0.042352937, a: 1}
+    - Key: 4
+      Value: {r: 0.87, g: 0.85596776, b: 0.09822582, a: 1}
+  directionRotations:
+    _serializedList:
+    - Key: 0
+      Value: {x: 0, y: 90, z: 0}
+    - Key: 1
+      Value: {x: 0, y: -90, z: 0}
+    - Key: 2
+      Value: {x: 0, y: 180, z: 0}
+    - Key: 3
+      Value: {x: 0, y: 0, z: 0}
